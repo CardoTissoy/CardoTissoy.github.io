@@ -1,7 +1,33 @@
+/* Profile Portion */
 
-img {width: 150px; height: 170px;
+.container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-right: 2%;
 }
-p, h1, h2, h3, hr, ul, ol, img { margin-left: 5%;
-                    margin-right: 2%;
+.text {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+.image {
+    width: 150px; 
+    height: 170px;
+    flex-basis: 40%s
 }
+img {
+    max-width: 100%;
+}
+
+.container, .header, .professional-experience, .educational-background,
+.skills, .trainings-seminar, .character-reference{  
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+
+
+
 
